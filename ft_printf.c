@@ -6,7 +6,7 @@
 /*   By: pecampos <pecampos@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/19 13:45:53 by pecampos          #+#    #+#             */
-/*   Updated: 2022/06/10 14:29:56 by pecampos         ###   ########.fr       */
+/*   Updated: 2022/07/04 13:56:18 by pecampos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,9 +66,8 @@ int	ft_printf(char const *text, ...)
 	}
 	return (res);
 }
-/* 
+
 int	main(void)
 {
-	printf("%d", ft_printf("(%u)", -3));
+	printf("%d", ft_printf("(%p)", "a"));
 }
- */
