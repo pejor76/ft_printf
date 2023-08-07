@@ -6,7 +6,7 @@
 #    By: pecampos <pecampos@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/04/07 11:03:12 by omontero          #+#    #+#              #
-#    Updated: 2022/06/10 14:30:29 by pecampos         ###   ########.fr        #
+#    Updated: 2023/08/07 11:03:45 by pecampos         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ RM = rm -f
 
 CC = gcc
 
-CFLAGS = -Wall -Werror -Wextra -I.
+CFLAGS = -Wall -Werror -Wextra 
 
 NAME = libftprintf.a
 
